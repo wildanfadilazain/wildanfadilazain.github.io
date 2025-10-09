@@ -1933,14 +1933,14 @@ input::-moz-focus-inner {
   background-color: #02182c;
   background-repeat: no-repeat;
   background-position: top center;
-  background-image: url(../images/backgroundwildan.png);
+  background-image: url(../images/backgroundwildann.JPG);
   background-size: cover;
   position: absolute;
   top: 20%;
   right: 0%;
-  bottom: 0;
-  left: 40%;
-  opacity: 0.89;
+  bottom: 0%;
+  left: 0%;
+  opacity: 0.9;
   z-index: 5;
 }
 
@@ -1958,12 +1958,12 @@ input::-moz-focus-inner {
 .intro-grid {
   background-image: url(../images/pattern-dot-grid.svg);
   background-size: 24px 24px;
-  opacity: 0.15;
+  opacity: 0.1;
   position: absolute;
   top: 30%;
   right: 0;
   bottom: 0;
-  left: 30%;
+  left: 10%;
   z-index: 1;
 }
 
@@ -2083,7 +2083,7 @@ input::-moz-focus-inner {
 
   .intro-pic {
     top: 12%;
-    left: 40%;
+    left: 20%;
   }
 
   .intro-pic::before {
@@ -2110,7 +2110,8 @@ input::-moz-focus-inner {
   }
 
   .intro-pic {
-    left: 30%;
+    left: 25%;
+    background-position: 57% center;
   }
 
   .intro-grid {
@@ -2129,6 +2130,7 @@ input::-moz-focus-inner {
 
   .intro-pic {
     left: 20%;
+    background-position: 60% center;
   }
 
   .intro-grid {
@@ -2157,6 +2159,10 @@ input::-moz-focus-inner {
 
   .intro-text h1 {
     font-size: 4.5rem;
+  }
+  .intro-pic {
+    left: 0%;
+    background-position: 58% center;
   }
 }
 
